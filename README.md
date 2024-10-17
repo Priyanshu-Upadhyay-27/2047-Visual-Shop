@@ -28,15 +28,15 @@ In this repository, I have some amazing projects like a virtual mouse and AI Not
 
 - **IDE**: PyCharm 
 - **Python**: 3.10
--**OpenCV**: 4.10.0.84 (for computer vision)
--**Mediapipe**: 0.10.14 (for hand recognition)
--**numpy**: 2.1.2 (for numerical operations)
--**google-ai-generativelanguage**: 0.6.10
--**google-api-core**:  2.21.0
--**google-api-python-client**: 2.149.0
--**os**: Standard Python library (for file handling)
--**math**: Standard Python library (for mathematical operations)
--**Gemini API**: Required for additional functionalities (ensure you have access to it)
+- **OpenCV**: 4.10.0.84 (for computer vision)
+- **Mediapipe**: 0.10.14 (for hand recognition)
+- **numpy**: 2.1.2 (for numerical operations)
+- **google-ai-generativelanguage**: 0.6.10
+- **google-api-core**:  2.21.0
+- **google-api-python-client**: 2.149.0
+- **os**: Standard Python library (for file handling)
+- **math**: Standard Python library (for mathematical operations)
+- **Gemini API**: Required for additional functionalities (ensure you have access to it)
 
 ### Installation
 
@@ -47,6 +47,7 @@ pip install opencv-python == 4.10.0.84
 pip install mediapipe == 0.10.14
 pip install autopy == 4.0
 pip install pyautogui == 0.9.54
+
 
 To install the required libraries for AI Notebook, run the following commands:
 
