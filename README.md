@@ -48,8 +48,9 @@ pip install opencv-python==4.10.0.84
 pip install mediapipe==0.10.14
 pip install autopy==4.0
 pip install pyautogui==0.9.54
+exit
 
-# AI Notebook (Virtual Painter) Requirements
+# AI Notebook Requirements
 ```bash
 pip install opencv-python==4.10.0.84
 pip install mediapipe==0.10.14
