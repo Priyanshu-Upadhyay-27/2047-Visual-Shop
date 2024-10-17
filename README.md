@@ -40,16 +40,13 @@ In this repository, I have some amazing projects like a virtual mouse and AI Not
 
 ### Installation
 
-To install the required libraries for Virtual Mouse, run the following commands:
+To install the required libraries for Virtual Mouse and AI Notebook respectively, run the following commands:
 
 ```bash
 pip install opencv-python == 4.10.0.84
 pip install mediapipe == 0.10.14
 pip install autopy == 4.0
 pip install pyautogui == 0.9.54
-
-
-To install the required libraries for AI Notebook, run the following commands:
 
 ```bash 
 pip install opencv-python==4.10.0.84
