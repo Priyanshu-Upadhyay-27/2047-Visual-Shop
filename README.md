@@ -48,7 +48,7 @@ pip install opencv-python==4.10.0.84
 pip install mediapipe==0.10.14
 pip install autopy==4.0
 pip install pyautogui==0.9.54
-exit
+```
 
 # AI Notebook Requirements
 ```bash
@@ -58,5 +58,5 @@ pip install numpy==2.1.2
 pip install google-ai-generativelanguage==0.6.10
 pip install google-api-core==2.21.0
 pip install google-api-python-client==2.149.0
-
+```
 
