@@ -8,7 +8,7 @@ import math
 
 
 # My DL model
-genai.configure(api_key="AIzaSyC2YBSBArq1UxYk456q6FQ9mDoA7OoYrKc")
+genai.configure(api_key="My API Key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 #Function for sending data to the model.
