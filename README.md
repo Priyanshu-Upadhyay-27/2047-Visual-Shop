@@ -59,7 +59,8 @@ pip install google-ai-generativelanguage==0.6.10
 pip install google-api-core==2.21.0
 pip install google-api-python-client==2.149.0
 ```
-Contributing
+# Contributing
 Contributions are welcome! If you have suggestions for improvements or would like to contribute to this project, please open an issue or submit a Pull Request. For any feedback, feel free to contact me at priyanshuupadhyay2005@gmail.com.
+For more details, see the [LICENSE](https://github.com/Priyanshu-Upadhyay-27/2047-Visual-Shop/blob/main/LICENSE) file in this repository.
 
 
