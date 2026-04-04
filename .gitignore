@@ -1,0 +1,227 @@
+# ============================================================
+#  end-to-end-churn-modeling — .gitignore
+# ============================================================
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.eggs/
+
+# ── Virtual Environments ─────────────────────────────────────
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ── Environment Variables (NEVER push secrets) ───────────────
+.env
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.yml
+credentials.json
+
+# ── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ── Data Files (use DVC or store externally) ─────────────────
+data/raw/
+data/processed/
+data/external/
+data/interim/
+!data/.gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Common data formats
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.npy
+*.npz
+*.arrow
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Trained Models ───────────────────────────────────────────
+*.pkl
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.bin
+*.safetensors
+models/
+saved_models/
+model_artifacts/
+
+# ── MLflow ───────────────────────────────────────────────────
+mlruns/
+mlflow/artifacts/
+mlflow.db
+
+# ── Research Papers & PDFs ───────────────────────────────────
+docs/references/*.pdf
+*.pdf
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+log/
+*.out
+*.err
+
+# ── IDE & Editors ────────────────────────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# ── OS Generated ─────────────────────────────────────────────
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+
+# ── Testing & Coverage ───────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+junit.xml
+
+# ── Docker ───────────────────────────────────────────────────
+.docker/
+docker-compose.override.yml
+
+# ── Node (if any frontend tooling) ───────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Profiling ────────────────────────────────────────────────
+*.prof
+*.lprof
+
+# ── Temporary Files ──────────────────────────────────────────
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+tmp/
+temp/
+
+# ── Reports & Outputs ────────────────────────────────────────
+reports/figures/
+outputs/
+*.html          # EDA profiling reports (auto-generated)
+
+# ── DVC (Data Version Control) ───────────────────────────────
+# Keep .dvc files but ignore the cache
+.dvc/cache
+.dvc/tmp
+
+# ── Weights & Biases ─────────────────────────────────────────
+wandb/
+
+# ── Byte-compiled / Cache ────────────────────────────────────
+*.pyc
+__pycache__/
+.cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# ── Sphinx Documentation ─────────────────────────────────────
+docs/_build/
+docs/api/
+
+# ============================================================
+#  What IS tracked (important overrides)
+# ============================================================
+!.gitkeep
+!requirements.txt
+!configs/config.yaml
+!docs/references.md
+!README.md
+!src/**/*.py
+!tests/**/*.py
+!notebooks/*.ipynb
+!docker/Dockerfile
+!docker/docker-compose.yml
+
+
+main.py
+testing.py
