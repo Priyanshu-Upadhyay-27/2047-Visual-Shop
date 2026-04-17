@@ -56,8 +56,7 @@ Vision Board is an interactive, touchless virtual whiteboard powered by **Comput
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/Priyanshu-Upadhyay-27/2047-Visual-Shop/tree/new_updates
 ```
 
 ### 2. Install Dependencies
